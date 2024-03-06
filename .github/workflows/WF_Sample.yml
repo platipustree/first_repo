@@ -17,3 +17,5 @@ jobs:
         run: echo '${{toJSON(env)}}'
       - name: List_github
         run: echo '${{toJSON(github)}}'
+      - name: List_secrets
+        run: echo '${{toJSON(secrets)}}'
